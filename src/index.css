@@ -1,0 +1,123 @@
+/* Tachyons */
+@import '~tachyons/css/tachyons.css';
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,500,600,700,800,900|Roboto:300,400,500,700');
+
+/* Fonts */
+.montserrat {
+  font-family: 'Lato', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 10.5px;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f7f8fc;
+  font-family: Roboto, sans-serif;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  color: #797979;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.43;
+  font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #505458;
+  font-family: Lato, sans-serif;
+  margin: 10px 0;
+}
+
+.error {
+  color: #ff5b5b;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.table {
+  font-size: 13px;
+}
+
+.ntPoint5 {
+  margin-top: -0.05rem;
+}
+
+.blur {
+  -webkit-filter: blur(3.5px); /* Safari 6.0 - 9.0 */
+  filter: blur(3.5px);
+}
+
+.bg0 {
+  background: 0 0;
+}
+
+.loader {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed !important;
+}
+
+.loader .content {
+  top: 45%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.loader .content svg {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.fade.in {
+  opacity: 1;
+}
+
+.modal-backdrop.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0);
+  -ms-transform: translate(0);
+  -o-transform: translate(0);
+  transform: translate(0);
+}
+
+.modal-header {
+  display: block;
+}
+
+.modal-body {
+  font-family: 'Roboto', sans-serif;
+}
