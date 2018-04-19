@@ -6,6 +6,7 @@ const card = ({ icon, title, desc, onClick }) => {
       className="card bg-white ba br4 b--black-20 pointer grow"
       onClick={onClick}>
 
+      
       <hr className="ma0 ntPoint5 center w-30 ba b--black-20" />
       <hr className="ma0 ntPoint5 center w-30 ba b--black-20" />
       <div className="card-body content-center tc pa4 pb5">

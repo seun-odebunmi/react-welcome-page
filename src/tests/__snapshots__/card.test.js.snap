@@ -22,7 +22,7 @@ exports[`Matches 1`] = `
     <h2
       className="b f2 mb4"
     >
-      This is not a card
+      This is a card
     </h2>
     <p
       className="f4 lh-copy"
